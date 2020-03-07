@@ -1,0 +1,17 @@
+.bg-light{
+    background-color: rgb(8, 30, 59)!important;    
+}
+.navbar-brand, .nav-link{
+    color: white!important;
+}
+.navbar-toggler-icon{
+    color: white!important;
+}
+#dropdownMenuBtn{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+#dropdownMenuBtn:focus{
+    box-shadow: none;
+}
