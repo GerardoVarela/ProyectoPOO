@@ -39,14 +39,43 @@
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
       </form>
     </div>
   </nav>
 
   <!------Contenido------>
-  <div>
-    
+  <div class="row">
+    <!--Carrusel-->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/dif-promo.jpg" class="d-block w-100" alt="Not found">
+            <div class="carousel-caption d-none d-md-block">
+              Hola mundo
+            </div>
+          </div>
+          <div class="carousel-item my-auto">
+            <img src="imgs/sales.png" class="d-block w-100" alt="Not found"><br>
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
