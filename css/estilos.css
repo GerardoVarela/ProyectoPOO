@@ -1,11 +1,13 @@
+/*Navbar*/
 .bg-light{
     background-color: rgb(8, 30, 59)!important;    
 }
 .navbar-brand, .nav-link{
     color: white!important;
 }
-.navbar-toggler-icon{
-    color: white!important;
+.navbar-light, .navbar-toggler{
+    background-color: whitesmoke;
+    border: none;
 }
 #dropdownMenuBtn{
     background-color: transparent;
@@ -14,4 +16,17 @@
 }
 #dropdownMenuBtn:focus{
     box-shadow: none;
+}
+#sgn-item:hover{
+    background-color:rgba(0, 119, 255, 0.966);
+    color: white;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg,.navbar-nav,.nav-link {
+        padding-right: .9rem;
+        padding-left: .9rem;
+    }
 }
